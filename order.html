@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Fresh Sweet Potato | Pontian, Johor, Malaysia</title>
+  <meta name="description" content="Order 1kg or 2kg fresh sweet potato from Pontian, Johor, Malaysia. Fill in your delivery address and proceed to payment setup." />
+  <link rel="canonical" href="https://jmingloh.github.io/sweet-potato/order.html" />
+  <link rel="alternate" hreflang="en" href="https://jmingloh.github.io/sweet-potato/order.html" />
+  <link rel="alternate" hreflang="zh-CN" href="https://jmingloh.github.io/sweet-potato/order-cn.html" />
+  <link rel="alternate" hreflang="ms-MY" href="https://jmingloh.github.io/sweet-potato/order-ms.html" />
+  <link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/order.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Fresh sweet potato from Pontian, Johor, Malaysia</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a class="lang-switch" href="order-cn.html">中文</a>
+        <a class="lang-switch" href="order-ms.html">BM</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Order fresh sweet potato</p>
+        <h1>Place your order in a few simple steps</h1>
+        <p class="lead">Choose your quantity, fill in your delivery details, and send your order directly through WhatsApp. Delivery is available for West Malaysia only.</p>
+        <div class="trust-badges">
+          <span class="trust-badge">Fresh from Pontian, Johor</span>
+          <span class="trust-badge">WhatsApp direct order</span>
+          <span class="trust-badge">West Malaysia delivery</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container order-layout">
+        <div class="order-card">
+          <h3>Order details</h3>
+          <form id="orderForm" class="order-form">
+            <div class="order-grid">
+              <input type="text" name="name" placeholder="Full name" required>
+              <input type="text" name="phone" placeholder="Phone number" required>
+            </div>
+            <div class="order-grid">
+              <select id="quantity" name="quantity" required>
+                <option value="1kg">1kg</option>
+                <option value="2kg">2kg</option>
+                <option value="3kg">3kg</option>
+                <option value="4kg">4kg</option>
+                <option value="5kg">5kg</option>
+              </select>
+              <input id="deliveryLabel" type="text" value="RM8.00" readonly>
+            </div>
+            <textarea name="address" rows="4" placeholder="Delivery address" required></textarea>
+            <div class="order-grid">
+              <input type="text" name="postcode" placeholder="Postcode" required>
+              <input type="text" name="city" placeholder="City" required>
+            </div>
+            <select name="state" required>
+              <option value="">Select state</option>
+              <option>Johor</option>
+              <option>Kedah</option>
+              <option>Kelantan</option>
+              <option>Kuala Lumpur</option>
+              <option>Melaka</option>
+              <option>Negeri Sembilan</option>
+              <option>Pahang</option>
+              <option>Penang</option>
+              <option>Perak</option>
+              <option>Perlis</option>
+              <option>Putrajaya</option>
+              <option>Selangor</option>
+              <option>Terengganu</option>
+            </select>
+            <textarea name="notes" rows="3" placeholder="Delivery note / landmark / special request"></textarea>
+            <div class="delivery-alert">West Malaysia only. Delivery fee is RM8 for 1–2kg and RM12 for 3–5kg.</div>
+            <button type="submit" class="btn">Proceed to WhatsApp +60177740471</button>
+            <p id="orderNote" class="form-note"></p>
+          </form>
+        </div>
+
+        <div>
+          <div class="summary-card">
+            <h3>Order summary</h3>
+            <div class="summary-line"><span>Product</span><strong>Fresh sweet potato</strong></div>
+            <div class="summary-line"><span>Quantity subtotal</span><strong id="subtotal">RM15.00</strong></div>
+            <div class="summary-line"><span>Delivery fee</span><strong id="deliveryFeeText">1–2kg: RM8 / 3–5kg: RM12</strong></div>
+            <div class="summary-line"><span>Estimated total</span><strong id="total" class="summary-total">RM23.00</strong></div>
+            <div class="summary-highlight small-text">
+              <strong style="display:block;margin-bottom:6px;color:#9a3412;">Pricing</strong>
+              1kg = RM15 • 2kg = RM28 • 3kg = RM39 • 4kg = RM48 • 5kg = RM55
+            </div>
+          </div>
+          <div class="notice-card" style="margin-top:18px;">
+            <h3>Why buyers can order with confidence</h3>
+            <ul class="plain-list small-text">
+              <li>Direct WhatsApp order to +60177740471</li>
+              <li>Fresh supply from Pontian, Johor</li>
+              <li>Clear West Malaysia delivery pricing</li>
+              <li>Full address collected before order is sent</li>
+            </ul>
+            <input type="hidden" id="deliveryFee" name="deliveryFee" value="8">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© 2026 Fresh sweet potato from Pontian, Johor, Malaysia.</p>
+      <p>Order page starter.</p>
+    </div>
+  </footer>
+
+  <script src="order.js"></script>
+</body>
+</html>

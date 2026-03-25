@@ -1,2 +1,9 @@
-# sweet-potato
-Simple website to promote and share sweet potato products
+# Sweet Potato
+
+Multilingual GitHub Pages site for:
+- English
+- Chinese (Mandarin)
+- Bahasa Melayu
+
+Live URL:
+- https://jmingloh.github.io/sweet-potato/

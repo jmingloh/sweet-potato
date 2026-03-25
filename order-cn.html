@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>购买新鲜番薯 | 柔佛笨珍，马来西亚</title>
+  <meta name="description" content="购买 1kg 或 2kg 来自柔佛笨珍的新鲜番薯，填写收货地址并进入付款流程。" />
+  <link rel="canonical" href="https://jmingloh.github.io/sweet-potato/order-cn.html" />
+  <link rel="alternate" hreflang="en" href="https://jmingloh.github.io/sweet-potato/order.html" />
+  <link rel="alternate" hreflang="zh-CN" href="https://jmingloh.github.io/sweet-potato/order-cn.html" />
+  <link rel="alternate" hreflang="ms-MY" href="https://jmingloh.github.io/sweet-potato/order-ms.html" />
+  <link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/order.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>body{font-family:'Inter','Noto Sans SC',sans-serif;}</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index-cn.html">Fresh sweet potato from Pontian, Johor, Malaysia</a>
+      <nav>
+        <a href="index-cn.html">首页</a>
+        <a class="lang-switch" href="order.html">EN</a>
+        <a class="lang-switch" href="order-ms.html">BM</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">新鲜番薯下单页面</p>
+        <h1>几步完成你的番薯订单</h1>
+        <p class="lead">选择重量、填写收货资料，然后通过 WhatsApp 直接发送订单。配送范围仅限西马。</p>
+        <div class="trust-badges">
+          <span class="trust-badge">来自柔佛笨珍</span>
+          <span class="trust-badge">WhatsApp 直接下单</span>
+          <span class="trust-badge">仅限西马配送</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container order-layout">
+        <div class="order-card">
+          <h3>订单资料</h3>
+          <form id="orderForm" class="order-form">
+            <div class="order-grid">
+              <input type="text" name="name" placeholder="姓名" required>
+              <input type="text" name="phone" placeholder="电话号码" required>
+            </div>
+            <div class="order-grid">
+              <select id="quantity" name="quantity" required>
+                <option value="1kg">1kg</option>
+                <option value="2kg">2kg</option>
+                <option value="3kg">3kg</option>
+                <option value="4kg">4kg</option>
+                <option value="5kg">5kg</option>
+              </select>
+              <input id="deliveryLabel" type="text" value="RM8.00" readonly>
+            </div>
+            <textarea name="address" rows="4" placeholder="收货地址" required></textarea>
+            <div class="order-grid">
+              <input type="text" name="postcode" placeholder="邮编" required>
+              <input type="text" name="city" placeholder="城市" required>
+            </div>
+            <select name="state" required>
+              <option value="">选择州属</option>
+              <option>Johor</option>
+              <option>Kedah</option>
+              <option>Kelantan</option>
+              <option>Kuala Lumpur</option>
+              <option>Melaka</option>
+              <option>Negeri Sembilan</option>
+              <option>Pahang</option>
+              <option>Penang</option>
+              <option>Perak</option>
+              <option>Perlis</option>
+              <option>Putrajaya</option>
+              <option>Selangor</option>
+              <option>Terengganu</option>
+            </select>
+            <textarea name="notes" rows="3" placeholder="送货备注 / 地标 / 特别要求"></textarea>
+            <div class="delivery-alert">仅限西马配送。1–2kg 运费 RM8，3–5kg 运费 RM12。</div>
+            <button type="submit" class="btn">通过 WhatsApp +60177740471 下单</button>
+            <p id="orderNote" class="form-note"></p>
+          </form>
+        </div>
+
+        <div>
+          <div class="summary-card">
+            <h3>订单摘要</h3>
+            <div class="summary-line"><span>产品</span><strong>新鲜番薯</strong></div>
+            <div class="summary-line"><span>商品小计</span><strong id="subtotal">RM15.00</strong></div>
+            <div class="summary-line"><span>运费</span><strong id="deliveryFeeText">1–2kg: RM8 / 3–5kg: RM12</strong></div>
+            <div class="summary-line"><span>预计总额</span><strong id="total" class="summary-total">RM23.00</strong></div>
+            <div class="summary-highlight small-text">
+              <strong style="display:block;margin-bottom:6px;color:#9a3412;">价格表</strong>
+              1kg = RM15 • 2kg = RM28 • 3kg = RM39 • 4kg = RM48 • 5kg = RM55
+            </div>
+          </div>
+          <div class="notice-card" style="margin-top:18px;">
+            <h3>让顾客更放心下单</h3>
+            <ul class="plain-list small-text">
+              <li>直接发送到 WhatsApp +60177740471</li>
+              <li>来自柔佛笨珍的新鲜供应</li>
+              <li>清楚列明西马配送费用</li>
+              <li>下单前先填写完整收货地址</li>
+            </ul>
+            <input type="hidden" id="deliveryFee" name="deliveryFee" value="8">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© 2026 Fresh sweet potato from Pontian, Johor, Malaysia.</p>
+      <p>订单页面起始版。</p>
+    </div>
+  </footer>
+
+  <script src="order.js"></script>
+</body>
+</html>
