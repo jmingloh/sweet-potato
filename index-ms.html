@@ -150,20 +150,40 @@
             <li>Kerjasama penjual semula</li>
           </ul>
         </div>
-        <form id="contactForm" class="contact-form">
-          <input type="text" name="name" placeholder="Nama anda" required>
-          <input type="text" name="phone" placeholder="Nombor telefon">
-          <select name="interest" required>
-            <option value="">Saya berminat dengan...</option>
-            <option>Ubi Keledek Segar</option>
-            <option>Tempahan Pukal</option>
-            <option>Bekalan Borong</option>
-            <option>Kerjasama Penjual Semula</option>
-          </select>
-          <textarea name="message" rows="4" placeholder="Beritahu kami apa yang anda perlukan"></textarea>
-          <button type="submit" class="btn">Hantar melalui WhatsApp</button>
-          <p id="formNote" class="form-note"></p>
-        </form>
+        <div class="contact-stack">
+          <div class="qr-cta-card">
+            <div>
+              <p class="eyebrow">Pautan pesanan ringkas</p>
+              <h3>Scan atau tekan untuk pesan lebih cepat</h3>
+              <p class="section-text">Gunakan pautan ringkas ini untuk pesanan terus dan mudah dikongsi di WhatsApp, Facebook, atau poster jualan.</p>
+              <a class="short-link" href="https://bit.ly/pontian-sweet-potato" target="_blank" rel="noopener noreferrer">bit.ly/pontian-sweet-potato</a>
+              <div class="share-buttons" aria-label="Kongsi pautan ubi keledek Pontian">
+                <a class="share-btn" href="https://wa.me/?text=https%3A%2F%2Fbit.ly%2Fpontian-sweet-potato" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbit.ly%2Fpontian-sweet-potato" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a class="share-btn" href="https://t.me/share/url?url=https%3A%2F%2Fbit.ly%2Fpontian-sweet-potato&text=Ubi%20Keledek%20Jepun%20Pontian" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <button type="button" class="share-btn copy-link-btn" data-copy-link="https://bit.ly/pontian-sweet-potato">Salin Pautan</button>
+              </div>
+              <p class="share-note" data-copy-note></p>
+            </div>
+            <a href="https://bit.ly/pontian-sweet-potato" target="_blank" rel="noopener noreferrer">
+              <img class="qr-image" src="pontian-sweet-potato-qr.jpeg" alt="Scan untuk pesan ubi keledek Pontian" loading="lazy" decoding="async" />
+            </a>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <input type="text" name="name" placeholder="Nama anda" required>
+            <input type="text" name="phone" placeholder="Nombor telefon">
+            <select name="interest" required>
+              <option value="">Saya berminat dengan...</option>
+              <option>Ubi Keledek Segar</option>
+              <option>Tempahan Pukal</option>
+              <option>Bekalan Borong</option>
+              <option>Kerjasama Penjual Semula</option>
+            </select>
+            <textarea name="message" rows="4" placeholder="Beritahu kami apa yang anda perlukan"></textarea>
+            <button type="submit" class="btn">Hantar melalui WhatsApp</button>
+            <p id="formNote" class="form-note"></p>
+          </form>
+        </div>
       </div>
     </section>
   </main>
