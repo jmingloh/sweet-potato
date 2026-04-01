@@ -30,14 +30,19 @@
 
   <main>
     <section class="hero">
-      <div class="container">
-        <p class="eyebrow">新鲜番薯下单页面</p>
-        <h1>几步完成你的番薯订单</h1>
-        <p class="lead">选择重量、填写收货资料，然后通过 WhatsApp 直接发送订单。配送范围仅限西马。</p>
-        <div class="trust-badges">
-          <span class="trust-badge">来自柔佛笨珍</span>
-          <span class="trust-badge">WhatsApp 直接下单</span>
-          <span class="trust-badge">仅限西马配送</span>
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">新鲜番薯下单页面</p>
+          <h1>几步完成你的番薯订单</h1>
+          <p class="lead">选择包装数量、填写收货资料，然后通过 WhatsApp 直接发送订单。配送范围仅限西马。</p>
+          <div class="trust-badges">
+            <span class="trust-badge">来自柔佛笨珍</span>
+            <span class="trust-badge">WhatsApp 直接下单</span>
+            <span class="trust-badge">仅限西马配送</span>
+          </div>
+        </div>
+        <div class="hero-image-card">
+          <img src="pontian-sweet-potato-convenient-packaging.jpeg" alt="品牌番薯包装产品图" loading="eager" decoding="async" />
         </div>
       </div>
     </section>
@@ -53,13 +58,13 @@
             </div>
             <div class="order-grid">
               <select id="quantity" name="quantity" required>
-                <option value="1kg">1kg</option>
-                <option value="2kg">2kg</option>
-                <option value="3kg">3kg</option>
-                <option value="4kg">4kg</option>
-                <option value="5kg">5kg</option>
+                <option value="1pack">1 包（约 900g）</option>
+                <option value="2pack">2 包（约 1.8kg）</option>
+                <option value="3pack">3 包（约 2.7kg）</option>
+                <option value="4pack">4 包（约 3.6kg）</option>
+                <option value="5pack">5 包（约 4.5kg）</option>
               </select>
-              <input id="deliveryLabel" type="text" value="RM8.00" readonly>
+              <input id="deliveryLabel" type="text" value="RM12.00" readonly>
             </div>
             <textarea name="address" rows="4" placeholder="收货地址" required></textarea>
             <div class="order-grid">
@@ -83,7 +88,7 @@
               <option>Terengganu</option>
             </select>
             <textarea name="notes" rows="3" placeholder="送货备注 / 地标 / 特别要求"></textarea>
-            <div class="delivery-alert">仅限西马配送。1–2kg 运费 RM8，3–5kg 运费 RM12。</div>
+            <div class="delivery-alert">仅限西马配送。每包约 900g（+/-）。1–2 包运费 RM12，3–5 包运费 RM18。</div>
             <button type="submit" class="btn">通过 WhatsApp +60177740471 下单</button>
             <p id="orderNote" class="form-note"></p>
           </form>
@@ -94,11 +99,11 @@
             <h3>订单摘要</h3>
             <div class="summary-line"><span>产品</span><strong>新鲜番薯</strong></div>
             <div class="summary-line"><span>商品小计</span><strong id="subtotal">RM15.00</strong></div>
-            <div class="summary-line"><span>运费</span><strong id="deliveryFeeText">1–2kg: RM8 / 3–5kg: RM15</strong></div>
-            <div class="summary-line"><span>总额</span><strong id="total" class="summary-total">RM23.00</strong></div>
+            <div class="summary-line"><span>运费</span><strong id="deliveryFeeText">1–2 包: RM12 / 3–5 包: RM18</strong></div>
+            <div class="summary-line"><span>总额</span><strong id="total" class="summary-total">RM27.00</strong></div>
             <div class="summary-highlight small-text">
-              <strong style="display:block;margin-bottom:6px;color:#9a3412;">价格表</strong>
-              1kg = RM15 • 2kg = RM28 • 3kg = RM39 • 4kg = RM48 • 5kg = RM55
+              <strong style="display:block;margin-bottom:6px;color:#9a3412;">包装价格</strong>
+              1 包 = RM15 • 2 包 = RM29 • 3 包 = RM43 • 4 包 = RM57 • 5 包 = RM70
             </div>
           </div>
           <div class="notice-card" style="margin-top:18px;">
@@ -120,6 +125,12 @@
     <div class="container footer-row">
       <p>© 2026 Fresh sweet potato from Pontian, Johor, Malaysia.</p>
       <p>订单页面起始版。</p>
+    </div>
+  </footer>
+
+  <script src="order.js"></script>
+</body>
+</html>��。</p>
     </div>
   </footer>
 

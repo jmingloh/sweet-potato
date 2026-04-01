@@ -29,14 +29,19 @@
 
   <main>
     <section class="hero">
-      <div class="container">
-        <p class="eyebrow">Pesan ubi keledek segar</p>
-        <h1>Buat pesanan anda dengan mudah</h1>
-        <p class="lead">Pilih kuantiti, isi maklumat penghantaran, dan hantar pesanan anda terus melalui WhatsApp. Penghantaran adalah untuk Semenanjung Malaysia sahaja.</p>
-        <div class="trust-badges">
-          <span class="trust-badge">Segar dari Pontian, Johor</span>
-          <span class="trust-badge">Pesanan terus melalui WhatsApp</span>
-          <span class="trust-badge">Penghantaran Semenanjung Malaysia</span>
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Pesan ubi keledek segar</p>
+          <h1>Buat pesanan anda dengan mudah</h1>
+          <p class="lead">Pilih jumlah pek, isi maklumat penghantaran, dan hantar pesanan anda terus melalui WhatsApp. Penghantaran adalah untuk Semenanjung Malaysia sahaja.</p>
+          <div class="trust-badges">
+            <span class="trust-badge">Segar dari Pontian, Johor</span>
+            <span class="trust-badge">Pesanan terus melalui WhatsApp</span>
+            <span class="trust-badge">Penghantaran Semenanjung Malaysia</span>
+          </div>
+        </div>
+        <div class="hero-image-card">
+          <img src="pontian-sweet-potato-convenient-packaging.jpeg" alt="Foto produk pembungkusan berjenama ubi keledek" loading="eager" decoding="async" />
         </div>
       </div>
     </section>
@@ -52,13 +57,13 @@
             </div>
             <div class="order-grid">
               <select id="quantity" name="quantity" required>
-                <option value="1kg">1kg</option>
-                <option value="2kg">2kg</option>
-                <option value="3kg">3kg</option>
-                <option value="4kg">4kg</option>
-                <option value="5kg">5kg</option>
+                <option value="1pack">1 Pek (~900g)</option>
+                <option value="2pack">2 Pek (~1.8kg)</option>
+                <option value="3pack">3 Pek (~2.7kg)</option>
+                <option value="4pack">4 Pek (~3.6kg)</option>
+                <option value="5pack">5 Pek (~4.5kg)</option>
               </select>
-              <input id="deliveryLabel" type="text" value="RM8.00" readonly>
+              <input id="deliveryLabel" type="text" value="RM12.00" readonly>
             </div>
             <textarea name="address" rows="4" placeholder="Alamat penghantaran" required></textarea>
             <div class="order-grid">
@@ -82,7 +87,7 @@
               <option>Terengganu</option>
             </select>
             <textarea name="notes" rows="3" placeholder="Nota penghantaran / mercu tanda / permintaan khas"></textarea>
-            <div class="delivery-alert">Semenanjung Malaysia sahaja. Caj penghantaran RM8 untuk 1–2kg dan RM12 untuk 3–5kg.</div>
+            <div class="delivery-alert">Semenanjung Malaysia sahaja. Setiap pek adalah sekitar 900g (+/-). Caj penghantaran ialah RM12 untuk 1–2 pek dan RM18 untuk 3–5 pek.</div>
             <button type="submit" class="btn">Teruskan ke WhatsApp +60177740471</button>
             <p id="orderNote" class="form-note"></p>
           </form>
@@ -93,11 +98,11 @@
             <h3>Ringkasan pesanan</h3>
             <div class="summary-line"><span>Produk</span><strong>Ubi keledek segar</strong></div>
             <div class="summary-line"><span>Subtotal kuantiti</span><strong id="subtotal">RM15.00</strong></div>
-            <div class="summary-line"><span>Caj penghantaran</span><strong id="deliveryFeeText">1–2kg: RM8 / 3–5kg: RM15</strong></div>
-            <div class="summary-line"><span>Jumlah</span><strong id="total" class="summary-total">RM23.00</strong></div>
+            <div class="summary-line"><span>Caj penghantaran</span><strong id="deliveryFeeText">1–2 Pek: RM12 / 3–5 Pek: RM18</strong></div>
+            <div class="summary-line"><span>Jumlah</span><strong id="total" class="summary-total">RM27.00</strong></div>
             <div class="summary-highlight small-text">
-              <strong style="display:block;margin-bottom:6px;color:#9a3412;">Harga</strong>
-              1kg = RM15 • 2kg = RM28 • 3kg = RM39 • 4kg = RM48 • 5kg = RM55
+              <strong style="display:block;margin-bottom:6px;color:#9a3412;">Harga pek</strong>
+              1 Pek = RM15 • 2 Pek = RM29 • 3 Pek = RM43 • 4 Pek = RM57 • 5 Pek = RM70
             </div>
           </div>
           <div class="notice-card" style="margin-top:18px;">
@@ -123,5 +128,9 @@
   </footer>
 
   <script src="order.js"></script>
+</body>
+</html>"order.js"></script>
+</body>
+</html>script>
 </body>
 </html>

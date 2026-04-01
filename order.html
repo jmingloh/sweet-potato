@@ -29,14 +29,19 @@
 
   <main>
     <section class="hero">
-      <div class="container">
-        <p class="eyebrow">Order fresh sweet potato</p>
-        <h1>Place your order in a few simple steps</h1>
-        <p class="lead">Choose your quantity, fill in your delivery details, and send your order directly through WhatsApp. Delivery is available for West Malaysia only.</p>
-        <div class="trust-badges">
-          <span class="trust-badge">Fresh from Pontian, Johor</span>
-          <span class="trust-badge">WhatsApp direct order</span>
-          <span class="trust-badge">West Malaysia delivery</span>
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Order fresh sweet potato</p>
+          <h1>Place your order in a few simple steps</h1>
+          <p class="lead">Choose your quantity, fill in your delivery details, and send your order directly through WhatsApp. Delivery is available for West Malaysia only.</p>
+          <div class="trust-badges">
+            <span class="trust-badge">Fresh from Pontian, Johor</span>
+            <span class="trust-badge">WhatsApp direct order</span>
+            <span class="trust-badge">West Malaysia delivery</span>
+          </div>
+        </div>
+        <div class="hero-image-card">
+          <img src="pontian-sweet-potato-convenient-packaging.jpeg" alt="Branded sweet potato product packaging" loading="eager" decoding="async" />
         </div>
       </div>
     </section>
@@ -52,13 +57,13 @@
             </div>
             <div class="order-grid">
               <select id="quantity" name="quantity" required>
-                <option value="1kg">1kg</option>
-                <option value="2kg">2kg</option>
-                <option value="3kg">3kg</option>
-                <option value="4kg">4kg</option>
-                <option value="5kg">5kg</option>
+                <option value="1pack">1 Pack (~900g)</option>
+                <option value="2pack">2 Packs (~1.8kg)</option>
+                <option value="3pack">3 Packs (~2.7kg)</option>
+                <option value="4pack">4 Packs (~3.6kg)</option>
+                <option value="5pack">5 Packs (~4.5kg)</option>
               </select>
-              <input id="deliveryLabel" type="text" value="RM8.00" readonly>
+              <input id="deliveryLabel" type="text" value="RM12.00" readonly>
             </div>
             <textarea name="address" rows="4" placeholder="Delivery address" required></textarea>
             <div class="order-grid">
@@ -82,7 +87,7 @@
               <option>Terengganu</option>
             </select>
             <textarea name="notes" rows="3" placeholder="Delivery note / landmark / special request"></textarea>
-            <div class="delivery-alert">West Malaysia only. Delivery fee is RM8 for 1–2kg and RM15 for 3–5kg.</div>
+            <div class="delivery-alert">West Malaysia only. Each pack is about 900g (+/-). Delivery fee is RM12 for 1–2 packs and RM18 for 3–5 packs.</div>
             <button type="submit" class="btn">Proceed to WhatsApp +60177740471</button>
             <p id="orderNote" class="form-note"></p>
           </form>
@@ -92,12 +97,12 @@
           <div class="summary-card">
             <h3>Order summary</h3>
             <div class="summary-line"><span>Product</span><strong>Fresh sweet potato</strong></div>
-            <div class="summary-line"><span>Quantity subtotal</span><strong id="subtotal">RM15.00</strong></div>
-            <div class="summary-line"><span>Delivery fee</span><strong id="deliveryFeeText">1–2kg: RM8 / 3–5kg: RM12</strong></div>
-            <div class="summary-line"><span>Total</span><strong id="total" class="summary-total">RM23.00</strong></div>
+            <div class="summary-line"><span>Packet subtotal</span><strong id="subtotal">RM15.00</strong></div>
+            <div class="summary-line"><span>Delivery fee</span><strong id="deliveryFeeText">1–2 Packs: RM12 / 3–5 Packs: RM18</strong></div>
+            <div class="summary-line"><span>Total</span><strong id="total" class="summary-total">RM27.00</strong></div>
             <div class="summary-highlight small-text">
-              <strong style="display:block;margin-bottom:6px;color:#9a3412;">Pricing</strong>
-              1kg = RM15 • 2kg = RM28 • 3kg = RM39 • 4kg = RM48 • 5kg = RM55
+              <strong style="display:block;margin-bottom:6px;color:#9a3412;">Packet pricing</strong>
+              1 Pack = RM15 • 2 Packs = RM29 • 3 Packs = RM43 • 4 Packs = RM57 • 5 Packs = RM70
             </div>
           </div>
           <div class="notice-card" style="margin-top:18px;">
@@ -108,7 +113,7 @@
               <li>Clear West Malaysia delivery pricing</li>
               <li>Full address collected before order is sent</li>
             </ul>
-            <input type="hidden" id="deliveryFee" name="deliveryFee" value="8">
+            <input type="hidden" id="deliveryFee" name="deliveryFee" value="12">
           </div>
         </div>
       </div>
@@ -123,5 +128,12 @@
   </footer>
 
   <script src="order.js"></script>
+</body>
+</html>"order.js"></script>
+</body>
+</html>ody>
+</html>"order.js"></script>
+</body>
+</html>html>"order.js"></script>
 </body>
 </html>
