@@ -56,4 +56,31 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/agent.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jmingloh.github.io/sweet-potato/agent.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://jmingloh.github.io/sweet-potato/agent-cn.html" />
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://jmingloh.github.io/sweet-potato/agent-ms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/agent.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/agent-cn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jmingloh.github.io/sweet-potato/agent.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://jmingloh.github.io/sweet-potato/agent-cn.html" />
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://jmingloh.github.io/sweet-potato/agent-ms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/agent.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/agent-ms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jmingloh.github.io/sweet-potato/agent.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://jmingloh.github.io/sweet-potato/agent-cn.html" />
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://jmingloh.github.io/sweet-potato/agent-ms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/agent.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
