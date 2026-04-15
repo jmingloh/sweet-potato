@@ -83,4 +83,67 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/pontian-hongshu-pifa-cn.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://jmingloh.github.io/sweet-potato/pontian-hongshu-pifa-cn.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/pontian-hongshu-pifa-cn.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/johor-hongshu-supplier-cn.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://jmingloh.github.io/sweet-potato/johor-hongshu-supplier-cn.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/johor-hongshu-supplier-cn.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/jb-hongshu-delivery-cn.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://jmingloh.github.io/sweet-potato/jb-hongshu-delivery-cn.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/jb-hongshu-delivery-cn.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/pontian-sweet-potato-wholesale.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jmingloh.github.io/sweet-potato/pontian-sweet-potato-wholesale.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/pontian-sweet-potato-wholesale.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/johor-sweet-potato-supplier.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jmingloh.github.io/sweet-potato/johor-sweet-potato-supplier.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/johor-sweet-potato-supplier.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/jb-sweet-potato-delivery.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jmingloh.github.io/sweet-potato/jb-sweet-potato-delivery.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/jb-sweet-potato-delivery.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/ubi-keledek-pontian-borong.html</loc>
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://jmingloh.github.io/sweet-potato/ubi-keledek-pontian-borong.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/ubi-keledek-pontian-borong.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/pembekal-ubi-keledek-johor.html</loc>
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://jmingloh.github.io/sweet-potato/pembekal-ubi-keledek-johor.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/pembekal-ubi-keledek-johor.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jmingloh.github.io/sweet-potato/penghantaran-ubi-keledek-jb.html</loc>
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://jmingloh.github.io/sweet-potato/penghantaran-ubi-keledek-jb.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jmingloh.github.io/sweet-potato/penghantaran-ubi-keledek-jb.html" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
